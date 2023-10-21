@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generate password</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 class="generator-title">Password Generate</h1>
+        <div class="generate-wrapper">
+          <div class="generator">
+            <input type="text" class="generator__password" />
+            <div>
+              <button type="button" class="btn generator__btn_generate">
+                Generate
+              </button>
+              <button type="button" class="btn generator__btn_copy">
+                Copy
+              </button>
+            </div>
+            <div class="generator__notification">Copied!</div>
+          </div>
+
+          <div class="options">
+            <form class="length">
+              <div class="form-group length__slider">
+                <label
+                  ><span>Password length:&nbsp;</span
+                  ><span class="length__value"></span
+                ></label>
+                <input type="range" step="1" />
+              </div>
+
+              <div class="checkboxes">
+                <span>
+                  <input type="checkbox" id="uppercase" checked />
+                  <label for="uppercase">Uppercase letters</label>
+                </span>
+                <span>
+                  <input type="checkbox" id="lowercase" checked />
+                  <label for="lowercase">Lowercase letters</label>
+                </span>
+                <span>
+                  <input type="checkbox" id="number" checked />
+                  <label for="number">Numbers</label>
+                </span>
+                <span>
+                  <input type="checkbox" id="symbol" />
+                  <label for="symbol">Symbols</label>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
