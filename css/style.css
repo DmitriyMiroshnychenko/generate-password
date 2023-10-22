@@ -1,7 +1,7 @@
 :root {
   --main-theme: url(../images/cowboy.jpg);
   --bg-color: #333;
-  --theme-color: #3ca5a0;
+  --theme-color: #36807c;
   --text-color: #352b2b;
 }
 
@@ -85,7 +85,8 @@ a {
 }
 
 .btn:hover {
-  box-shadow: 0 0 0.5em var(--theme-color);
+  color: fff;
+  background: #378a42;
 }
 
 .btn,
@@ -141,7 +142,7 @@ a {
   -webkit-appearance: none;
   height: 13px;
   border-radius: 3px;
-  background: rgb(7, 170, 20);
+  /* background: rgb(17, 17, 17); */
   outline: none;
   padding: 0;
   margin: 0;
@@ -150,6 +151,7 @@ a {
 .length__value {
   font-size: 30px;
   text-align: center;
+  color: indigo;
 }
 
 /* CUSTOM THUMB */
